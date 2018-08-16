@@ -48,7 +48,7 @@
 $active_group = 'default';
 $active_record = TRUE;
 
-$db['default']['hostname'] = '127.0.0.1';
+$db['default']['hostname'] = '106.12.84.99';
 $db['default']['username'] = 'root';
 $db['default']['password'] = 'lu123456';
 $db['default']['database'] = 'mybbs';
