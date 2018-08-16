@@ -10,7 +10,7 @@ class Topic_m extends CI_Model
             ->join('posts p', 'p.topic_id = t.topic_id', 'left')
             ->group_by('t.topic_id, t.topic_name, t.ico, p.topic_id')
             ->order_by('posts_count','desc')
-            ->order_by('t.addtime','a')
+            ->order_by('t.topic_id','asc')
             ->limit(8);
         $res =$this->db->get();
         $res = $res->result_array();
