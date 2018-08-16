@@ -8,7 +8,7 @@ class Topic_m extends CI_Model
         $this->db->select('t.topic_id, t.topic_name, t.ico, count(p.post_id) posts_count')
             ->from('topics t')
             ->join('posts p', 'p.topic_id = t.topic_id', 'left')
-            ->group_by('t.topic_id, t.topic_name, t.ico,p.t.topic.id')
+            ->group_by('t.topic_id, t.topic_name, t.ico,p.t.topic_id')
             ->order_by('posts_count','desc')
             ->limit(8);
         $res =$this->db->get();
