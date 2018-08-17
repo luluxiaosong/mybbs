@@ -110,8 +110,8 @@
             if(email == ""){
                 $(".email_error").text("请填写电子邮箱");
              }
+             
             return false;
-
         })
 
     })
