@@ -108,9 +108,9 @@
                 $(".username_error").css('color','#3c763d')
             }
             if(email == ""){
-                $(".email_error").text("请填写电子邮箱");
+                $(".email_error").text("填写电子邮箱");
              }
-             
+
             return false;
         })
 
