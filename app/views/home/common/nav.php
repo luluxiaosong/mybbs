@@ -16,9 +16,9 @@
     #nav_form input,#nav_form button {
     }
     #nav_form input{
-        border-radius:15px 0 0 15px;
+        border-radius:15px;
         /*border:1px solid #cccccc;*/
-        width:90px;
+        width:110px;
         /*text-indent:10px;*/
     }
     #nav_form input:focus{
@@ -86,13 +86,14 @@
     <nav id="nav" class="navbar navbar-default navbar-fixed-top" >
         <div class="container-fluid">
             <div class="navbar-header"  >
-              <a class="navbar-brand" style="font-size: 22px; margin-left: 180px;" href="<?php  echo site_url('home'); ?>"> My社区</a>
+              <a class="navbar-brand" style="font-size: 22px; margin-left: 120px;" href="<?php  echo site_url('home'); ?>"> My社区</a>
         </div>
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
           <form class="navbar-form navbar-left" id="nav_form" action="/index.php/search" method="post" accept-charset="utf-8">
               <div class="form-group">
-              <input class="form-control" type="text"  placeholder="" >
-              </div><button class="btn btn-default"  type="submit" ><span class="glyphicon glyphicon-search" style="color: #27943C;"></span></button>
+              <input class="form-control" type="text"  placeholder="搜索内容..." >
+              </div>
+<!--              <button class="btn btn-default"  type="submit" ><span class="glyphicon glyphicon-search" style="color: #27943C;"></span></button>-->
           </form>
             <ul class="nav navbar-nav navbar-left">
                 <li id="home" class="<?php if(@$nav_active == 'home') echo 'nav_selected' ?>"><a  href="<?php echo site_url('home')?>">首页</a></li>

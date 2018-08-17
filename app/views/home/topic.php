@@ -35,7 +35,7 @@
 <!--导航头-->
 <?php $this->load->view('home/common/nav'); ?>
     <!--主框 -->
-    <div  style="margin: auto; width: 72%; background-color: #FEFEFE; border: #cccccc 1px solid; border-radius: 5px;">
+    <div  style="margin: auto; width: 80%; background-color: #FEFEFE; border: #cccccc 1px solid; border-radius: 5px;">
         <!--左侧-->
         <div class="" style="width: 68%; float: left;  margin-bottom: 40px;">
 

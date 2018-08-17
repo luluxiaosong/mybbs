@@ -11,10 +11,10 @@
 <!--导航头-->
 <?php $this->load->view('home/common/nav')?>
 
-    <div style="margin: auto; padding-bottom: 14px;width: 72%; text-align: center"><span style="font-size: 20px; color: #31708f; margin: 6px;">Welcome ~ ~ ~</span>
+    <div style="margin: auto; padding-bottom: 14px; text-align: center"><span style="font-size: 20px; color: #31708f; margin: 6px;">Welcome ~ ~ ~</span>
         </div>
 <!--主框 -->
-    <div  style="margin: auto; width: 72%; height: auto; background-color: #FEFEFE; border: #cccccc 1px solid; border-radius: 5px;">
+    <div  style="margin: auto; width: 80%; height: auto; background-color: #FEFEFE; border: #cccccc 1px solid; border-radius: 5px;">
           <!--左侧-->
           <div class="" style="width: 68%; float: left;  margin-bottom: 40px;">
                 <h4  style="margin-top: 10px; padding-bottom: 16px; border-bottom: #cccccc 1px solid">&nbsp;&nbsp;&nbsp;&nbsp;最新发布</h4>
